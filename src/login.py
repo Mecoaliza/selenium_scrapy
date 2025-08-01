@@ -9,7 +9,7 @@ def iniciar_driver():
     driver = webdriver.Edge()
     return driver
 
-def login_cyber(driver, usuario: str, senha: str):
+def login_cyber(driver, usuario, senha):
     
     driver.get('http://cyber.net/')
 
